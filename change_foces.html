@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>self_focus</title>
+        <script type="text/javascript">
+            window.setTimeout(function(){
+                window.self.focus();
+                document.getElementById("text_2").focus();
+            }, 5000);
+        </script>
+    </head>
+    <body>
+        <input type="text" id="text_1" /><input type="text" id="text_2" />
+    </body>
+</html>
